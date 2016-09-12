@@ -60,5 +60,5 @@ var compare = function(a, b){
 	return true;
 };
 
-var compare = compare(obj1, obj2);
-console.log(compare);
+var result = compare(obj1, obj2);
+console.log(result);
