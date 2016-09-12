@@ -1,6 +1,6 @@
 var obj1 = {
   a: undefined,
-  b: null,
+  b: [1,2,[1,2]],
   c: {
     d: 4,
     e: {
@@ -14,7 +14,7 @@ var obj1 = {
 
 var obj2 = {
   a: undefined,
-  b: null,
+  b: [1,2,[1,2]],
   c: {
     d: 4,
     e: {
