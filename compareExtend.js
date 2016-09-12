@@ -35,7 +35,7 @@ var compare = function(a, b){
 		//если свойство - объект
 		if(typeof(a[i]) == "object"){
 			//сравниваем объекты внутри этой же ф-цией
-			if(!Compare(a[i], b[i])){
+			if(!compare(a[i], b[i])){
 				return false;
 			}
 		//если метод а не свойство	
