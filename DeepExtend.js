@@ -37,7 +37,7 @@ var obj1 = {
 
 var obj2 = {
   a: 1,
-  b: 2,
+  b: [66,55,[undefined,44],22],
   c: {
      d: 3,
      e: {
@@ -56,8 +56,10 @@ var obj3 = {
      	f: 7
      }
   },
-  ss: 60,
-  ll: 66
+  ss: function name(){
+  	console.log('hey');
+  },
+  ll: [66,55,[33,44],22]
 };
 
 var obj4 =  myDeepExtend(obj1, obj2, obj3);
