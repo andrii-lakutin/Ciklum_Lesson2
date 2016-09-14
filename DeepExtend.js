@@ -16,7 +16,7 @@ function myDeepExtend(){
 			result[key] = currentObject[key];
 			// если свойство - тоже объект вызываем нашу же функцию (клеим пустоту и объект, получится объект)
 			if (currentObject[key] === 'object') {
-				result[key] = deepExtend(result[key], obj[key]);
+				result[key] = myDeepExtend(result[key], obj[key]);
 			}
 		}
   	}
